@@ -26,34 +26,39 @@ This is a hands-on tutorial in which the data and code will be distributed to pa
 
 | Time | Topic | Instructor |
 :-----------------------|:-------------|:----------|
-| 13:00 - 13:10	| [Workshop Introduction](https://github.com/hbctraining/Training-modules/raw/master/Intro_current_topics_online_2021.pdf) | Mary |
+| 13:00 - 13:10	| [Workshop Introduction](https://github.com/hbctraining/Training-modules/blob/master/Intro_current_topics_online_2022.pdf) | Mary |
 | 13:10 - 13:30	| [Introduction to dataset and considerations for choosing appropriate plotting methods](https://hbctraining.github.io/publication_perfect/lessons/01_intro_to_dataset.html) | Radhika |
 | 13:30 - 14:15 | [Visualization package ggplot2 basic syntax and plot types](https://hbctraining.github.io/publication_perfect/lessons/02_ggplot2_syntax.html) | Radhika |
 | 14:15 - 14:20	| Break | |
 | 14:20 - 14:45	| [Consistent plots with custom themes](https://hbctraining.github.io/publication_perfect/lessons/03_custom_themes.html) | Mary |
 | 14:45 - 15:15	| [Application of plotting basics](https://hbctraining.github.io/publication_perfect/lessons/04_boxplot_application_of_basic_plotting.html) | Radhika |
-| 15:15 - 16:00	| [Customization of scales and color palettes](https://hbctraining.github.io/publication_perfect/lessons/05_custom_plot_scales_colors.html) | Mary |
 
 ### Part II
 
 | Time | Topic | Instructor |
 :-----------------------|:-------------|:----------|
-| 13:00 - 13:30	| Workshop overview
-| 13:30 - 14:15	| Aligning and labeling plots with cowplot
-| 14:15 - 14:25	| Break
-| 14:25 - 15:10	| Adding statistical comparisons and ordering of plots with ggpubr
-| 15:10 - 15:50	| Adapting code to adhere to transition to figure requirements for journal
-| 15:50 - 16:00	| Wrap-up and exit survey 
+| 13:00 - 13:10	| [Workshop Introduction](https://github.com/hbctraining/Training-modules/raw/master/Intro_current_topics_online_2021.pdf) | Mary |
+| 13:10 - 14:00	| [Customization of scales and color palettes](https://hbctraining.github.io/publication_perfect/lessons/05_custom_plot_scales_colors.html) | Mary |
+| 14:00 - 14:30	| [Aligning and labeling plots with cowplot](https://hbctraining.github.io/publication_perfect/lessons/06_aligning_plots_using_cowplot.html) | Radhika |
+| 14:30 - 14:35	| Break
+| 14:35 - 15:15	| [Adding annotations and including statistical comparisons with ggpubr](https://hbctraining.github.io/publication_perfect/lessons/07_adding_text_annotations.html) | Jihe |
+| 15:15 - 15:45	| [Incorporating external packages to extend plotting functionality](https://hbctraining.github.io/publication_perfect/lessons/08_figure_specific_packages.html) | Meeta |
+| 15:45 - 15:50	| [Creating final figure](https://hbctraining.github.io/publication_perfect/lessons/09_final_figure.html) | Mary |
+| 15:50 - 15:55	| [Pivoting publications](https://hbctraining.github.io/publication_perfect/lessons/10_pivoting_publications.html) | Mary |
+| 15:55 - 16:00	| [Wrap-up and exit survey](https://github.com/hbctraining/Training-modules/raw/master/Intro_current_topics_online_2021.pdf) | Mary |
 
 ### Dataset
 
-Download the R project and data for this workshop [here](https://www.dropbox.com/s/hu5i8ueziuhmwg6/publication_perfect.zip?dl=1). Decompress and move the folder to the location on your computer where you would like to perform the analysis.
+Download the R project and data for this workshop:
+
+- In preparation for Part I: [Part I R data and project](https://github.com/hbctraining/Training-modules/raw/master/data/publication_perfect.zip). Decompress and move the folder to the location on your computer where you would like to perform the analysis.
+- In preparation for Part II: [Part II R data and project](https://www.dropbox.com/s/x9y6f3wia3muv4i/publication_perfect_partII.zip?dl=1). Decompress and move the folder to the location on your computer where you would like to perform the analysis.
 
 ### Installation Requirements
 
 Download the most recent versions of R and RStudio for your laptop:
 
- - [R](http://lib.stat.cmu.edu/R/CRAN/) (Version 3.4 or higher)
+ - [R](http://lib.stat.cmu.edu/R/CRAN/) (Version 4.0 or higher)
  - [RStudio](https://www.rstudio.com/products/rstudio/download/#download)
  
 Install the required R packages by running the following code in RStudio:
@@ -66,6 +71,12 @@ install.packages("ggpubr")
 install.packages("RColorBrewer")
 install.packages("viridis")
 install.packages("scales")
+install.packages("VennDiagram")
+install.packages("pheatmap")
+install.packages("png")
+install.packages("ggrepel")
+install.packages("ggplotify")
+install.packages("magick")
 ```
 
 Load the libraries to make sure the packages installed properly:
@@ -78,6 +89,12 @@ library(RColorBrewer)
 library(viridis)
 library(scales)
 library(tidyverse)
+library(VennDiagram)
+library(pheatmap)
+library(png)
+library(ggrepel)
+library(ggplotify)
+library(magick)
 ```
 
 *These materials have been developed by members of the teaching team at the [Harvard Chan Bioinformatics Core (HBC)](http://bioinformatics.sph.harvard.edu/). These are open access materials distributed under the terms of the [Creative Commons Attribution license](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.*

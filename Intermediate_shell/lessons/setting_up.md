@@ -18,7 +18,7 @@ Once again, you are likely familiar with what a command prompt is, but to ensure
 
 We will be exploring slightly more advanced capabilities of the shell by working with data from an RNA sequencing experiment. 
 
-> *NOTE: If you attended the [Intro to shell](https://hbctraining.github.io/Training-modules/Intro_shell/) workshop with us last month, you should have already downlaoded this data.*
+> *NOTE: If you attended the [Intro to shell](https://hbctraining.github.io/Training-modules/Intro_shell/) workshop with us last month, you should have already downloaded this data.*
 
 Before we download the data, let's check the folder we are currently in:
 
@@ -30,9 +30,9 @@ $ pwd
 > 
 > On a **Windows** machine your current folder should be something starting with `/c/Users/marypiper`. To find this in your File explorer try clicking on PC and navigating to that path.
 
-Once you know to which folder you are downloading your data, right click on the link below:
+Once you know to which folder you are downloading your data click on the link below:
 
-**Download RNA-Seq data to your working directory:** [right-click here](https://github.com/hbctraining/Training-modules/blob/master/Intro_shell/data/unix_lesson.zip?raw=true) and choose **Save link as** or **Download link as** or the equivalent.
+**Download RNA-Seq data to your working directory:** [click here to download](https://github.com/hbctraining/Training-modules/blob/master/Intro_shell/data/unix_lesson.zip?raw=true).
 
 Type the 'list' command to check that you have downloaded the file to the correct location (your present working directory):
 

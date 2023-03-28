@@ -1,8 +1,8 @@
 ## Intermediate bash
 
 | Audience | Computational skills required | Duration |
-:----------|:----------|:----------|:----------|
-| Biologists | [Beginner bash](https://hbctraining.github.io/Training-modules/Intro_shell/) | 2 hour workshop (~2 hours of trainer-led time)|
+:----------|:----------|:----------|
+| Biologists | [Beginner bash](https://hbctraining.github.io/Training-modules/Intro_shell/) | 2-3 hour workshop (~2-3 hours of trainer-led time) |
 
 
 ### Description
@@ -30,7 +30,7 @@ This repository has teaching materials for a **2 hour**, hands-on **Intermediate
 
 ### Dataset
 
-[Introduction to Shell: Dataset](https://www.dropbox.com/s/3lua2h1oo18gbug/unix_lesson.tar.gz?dl=1)
+[Introduction to Shell: Dataset](https://github.com/hbctraining/Training-modules/blob/master/Intro_shell/data/unix_lesson.zip?raw=true)
 
 ### Installation Requirements
 

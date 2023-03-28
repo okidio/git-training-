@@ -14,39 +14,67 @@ Some workshops will require a working knowledge of R or completion of the [Intro
 
 ** **NOTE: Detailed information** and **preparation instructions** for each of the workshops can be found by clicking on the workshop links in the table below.
 
-> Workshop introduction slides are available [here](https://github.com/hbctraining/Training-modules/raw/master/Intro_current_topics_online_2021.pdf).
+> Workshop introduction slides are available [here](https://github.com/hbctraining/Training-modules/raw/master/Intro_current_topics_online_2022.pdf).
 
-### Current Workshops ([click here for the schedule](http://bioinformatics.sph.harvard.edu/training#hbcs-monthly-short-workshops))
+***
 
-| Lessons        | Prerequisites |
-|:---------------|:-------------:|
-| [Introduction to R Practical](IntroR_practical_online_resource) | None |
-| [Publication Perfect: Part I](publication_perfect) | Beginner R or [Completion of the IntroR online resource](https://projects.iq.harvard.edu/hcatrresource/) |
-| [Publication Perfect: Part II](publication_perfect) | [Publication Perfect: Part I](publication_perfect) |
+### Current Topics in Bioinformatics workshops 2023 Schedule (1pm - 4pm):
+
+| Topic and Link(s) to lessons | Prerequisites | Date | Registration |
+|:---------------|:-------------:|:-------------:|:-------------:|
+| [Introduction to Shell](https://hbctraining.github.io/Training-modules/Intro_shell/)	| None | 1/18/2023	| Closed |
+| [Intermediate Shell](https://hbctraining.github.io/Training-modules/Intermediate_shell/)	| [Introduction to Shell](https://hbctraining.github.io/Training-modules/Intro_shell/) | 2/15/2023	| Closed |
+| [Advanced Shell](https://hbctraining.github.io/Training-modules/Advanced_shell/) | [Intermediate Shell](https://hbctraining.github.io/Training-modules/Intermediate_shell/) | 3/13/2023	| [Sign up!](https://harvard.zoom.us/meeting/register/tJUtceyqpz4pH9XOgSbacY1nPxkvFXNbP4am) |
+| [Git/Github](https://hbctraining.github.io/Training-modules/Git-Github/) | [Introduction to Shell](https://hbctraining.github.io/Training-modules/Intro_shell/) | 4/19/2023	| [Sign up!](https://harvard.zoom.us/meeting/register/tJ0kdeCtqz8sGtJx6DCaXw9lqNGkFJ5SbP3G) | 
+| [Basics of Python](Python) | None | 6/21/2023	| [Sign up!](https://harvard.zoom.us/meeting/register/tJclf-GuqjkuGdBKYh9jOEGyoV9SqZeH4u2U) |
+| [R Basics](https://hbctraining.github.io/Training-modules/IntroR/) | None | 7/19/2023	| Coming soon |
+| [R Intermediate](IntroR_practical_online_resource) | Beginner R or [Online R course - Harvard Catalyst](https://catalyst.harvard.edu/courses/intro-to-r/) | 8/16/2023	| Coming soon |
+| [Publication Perfect: Part I](publication_perfect#part-i) | Beginner R or [Completion of the Intro to R online resource](https://projects.iq.harvard.edu/hcatrresource/) | 9/20/2023	| Coming soon |
+| [Publication Perfect: Part II](publication_perfect#part-ii) | [Publication Perfect: Part I](publication_perfect#part-i) | 10/18/2023	| Coming soon |
+| [Rmarkdown](Rmarkdown) | Beginner R or [Online R course - Harvard Catalyst](https://catalyst.harvard.edu/courses/intro-to-r/) | 11/15/2023	| Coming soon |
 
 
-### All topics
+***
 
-| Lessons        | Prerequisites |
+## Links to workshop materials
+
+### R-based workshops:
+
+| Topic and Link(s) to lessons | Prerequisites |
 |:---------------|:-------------:|
 | [Introduction to R](IntroR) | None |
-| [Introduction to the tidyverse data science packages and visualizations with ggplot2](Tidyverse_ggplot2) | Beginner R or [IntroR workshop](IntroR) |
-| [Gene annotations and functional analysis of gene lists](DGE-functional-analysis) | Beginner R or [IntroR workshop](IntroR) |
-| [Generating research analysis reports with RMarkdown](Rmarkdown/) | Beginner R or [IntroR workshop](IntroR) |
-| [Interactive Data Visualization with Shiny in R (with Ista Zahn from the Harvard Business School)](https://github.com/izahn/shiny_workshop) | Beginner R or [IntroR workshop](IntroR) |
-| [Introduction to Python](Python) | None |
-| [Visualization in R](Visualization_in_R/) | Beginner R or [IntroR workshop](IntroR) |
-| [Functional analysis of gene lists](DGE-functional-analysis/) | Beginner R or [IntroR workshop](IntroR) |
+| [Tidyverse](Tidyverse_ggplot2) | Beginner R or [Intro to R workshop](IntroR) |
+| [Introduction to R Practical](IntroR_practical_online_resource) | Beginner R or [Completion of the Intro to R online resource](https://projects.iq.harvard.edu/hcatrresource/) |
+| [Gene annotations and functional analysis of gene lists](DGE-functional-analysis) | Beginner R or [Intro to R workshop](IntroR) |
+| [Generating research analysis reports with RMarkdown](Rmarkdown) | Beginner R or [Intro to R workshop](IntroR) |
+| [Interactive Data Visualization with Shiny in R (with Ista Zahn from the Harvard Business School)](https://github.com/izahn/shiny_workshop) | Beginner R or [Intro to R workshop](IntroR) |
+| [Publication Perfect: Part I](publication_perfect#part-i) | Beginner R or [Completion of the Intro to R online resource](https://projects.iq.harvard.edu/hcatrresource/) |
+| [Publication Perfect: Part II](publication_perfect#part-ii) | [Publication Perfect: Part I](publication_perfect#part-i) |
+| [Functional analysis of gene lists](DGE-functional-analysis/) | Beginner R or [Intro to R workshop](IntroR) |
+
+### Shell-based workshops:
+
+| Topic and Link(s) to lessons | Prerequisites |
+|:---------------|:-------------:|
 | [Introduction to the command-line interface](Intro_shell) | None |
-| [Intermediate bash](Intermediate_shell) | Beginner bash or [Intro to the command-line interface](Intro_shell) |
-| [Version control using Git and Github](Git-Github) | Beginner bash or [Intro to the command-line interface](Intro_shell)  |
-| [Accessing genomic reference and experimental sequencing data](https://hbctraining.github.io/Accessing_public_genomic_data) | Beginner bash or [Intro to the command-line interface](Intro_shell)  |
-| [Exploring genomic variants using GEMINI](Exploring_variants_with_GEMINI) | Beginner bash or [Intro to the command-line interface](Intro_shell) |
+| [Intermediate bash](Intermediate_shell) | Beginner shell or [Intro to the command-line interface](Intro_shell) |
+| [Version control using Git and Github](Git-Github) | Beginner shell or [Intro to the command-line interface](Intro_shell)  |
+| [Accessing genomic reference and experimental sequencing data](https://hbctraining.github.io/Accessing_public_genomic_data) | Beginner shell or [Intro to the command-line interface](Intro_shell)  |
+| [Exploring genomic variants using GEMINI](Exploring_variants_with_GEMINI) | Beginner shell or [Intro to the command-line interface](Intro_shell) |
+
+### Additional workshops:
+
+| Topic and Link(s) to lessons | Prerequisites |
+|:---------------|:-------------:|
+| [Introduction to Python](Python) | None |
 | [Planning a bulk RNA-seq analysis: Part I](planning_successful_rnaseq#part-i) | None |
 | [Planning a bulk RNA-seq analysis: Part II](planning_successful_rnaseq#part-ii) | None |
 | [Make your (RNA-seq) data analysis reproducible](reproducible_analyses)- *Taught by [Julie Goldman](https://scholar.harvard.edu/julie_goldman) from Countway Library* | None |
 | [Improving your (RNA-seq) data analysis using version control (Git)](https://hbctraining.github.io/versioning_data_scripts/) | None |
 
+
 ***
 
 *These materials have been developed by members of the teaching team at the [Harvard Chan Bioinformatics Core (HBC)](http://bioinformatics.sph.harvard.edu/). These are open access materials distributed under the terms of the [Creative Commons Attribution license](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.*
+
+*A lot of time and effort went into the preparation of these materials. Citations help us understand the needs of the community, gain recognition for our work, and attract further funding to support our teaching activities. Thank you for citing the corresponding course (as suggested in its "Read Me" section) if it helped you in your data analysis.*
